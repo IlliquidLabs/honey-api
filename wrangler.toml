@@ -1,0 +1,10 @@
+name = "honey-api"
+type = "javascript"
+workers_dev = true
+account_id = ""
+
+[build]
+command = "yarn run build"
+
+[build.upload]
+format = "service-worker"
